@@ -9,7 +9,13 @@
     background-repeat:no-repeat ;
     
 }
-
+a:hover
+{
+  color: #E49E00;
+  border-top: 2px solid #E49E00;
+  border-bottom: 2px solid #E49E00;
+  padding: 3px;
+}
 body {
     font-family: 'open sans';
 }
