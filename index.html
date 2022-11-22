@@ -19,13 +19,14 @@
 <body>
 
     <header class="  position-relative">
+        <div class="hero">
         <div class="position-relative" style="z-index: 0;">
-            <img class="hero" src="./img/background_hero.png">
+            
         </div>
         <div class=" mx-auto d-flex justify-content-center" style="z-index: 1;">
-            <div class=" w-50">
+            <div class="w-100 mx-auto d-flex flex-column justify-content-center" style="max-width:1000px;">
 
-                <ul class="text-warning list-group list-unstyled list-group-horizontal"
+                <ul class="text-warning list-group list-unstyled list-group-horizontal d-none d-md-flex"
                     style="z-index: 1;max-width: 50rem;">
                     <li class="p-5 list-member fw-bolder " style="z-index: 1; font-size: 1.5rem;">
                     Gpath    
@@ -44,21 +45,21 @@
 
                 <div class="position-relative d-flex flex-row">
 
-                    <div style="width: 65%;" class=" z-index-1">
+                    <div class=" z-index-1 hero-container">
                         <div class="mx-auto">
-                            <h1 class="text-outline text-center fw-bold text-warning" style="z-index: 10;">Explora tu
+                            <h1 class="text-outline text-center fw-bold text-warning px-2 p-lg-0" style="z-index: 10;">Explora tu
                                 mundo
                                 con una nueva forma
                                 de verlo.
                             </h1>
                         </div>
-                        <div class="mx-auto d-flex flex-column  justify-content-center">
+                        <div class="mx-auto d-flex flex-column  justify-content-center px-md-5 px-sm-0 px-lg-0" >
                             <div class="mx-auto m-5">
                                 <button class="btn btn-warning py-2 px-5 rounded-4 " style="width:12rem;"><i><b>Saber
                                             más</b></i></button>
                             </div>
-                            <div class="d-flex flex-row justify-content-between">
-                                <button class="d-flex align-items-center btn bg-dark rounded-5">
+                            <div class="d-flex flex-column flex-md-row justify-content-md-around justify-content-between align-items-center">
+                                <button class="d-flex align-items-center btn bg-dark rounded-5 my-2 my-md-0" style="width: 13rem;">
                                     <i style="width: 2rem; "><svg style="fill:white" xmlns="http://www.w3.org/2000/svg"
                                             viewBox="0 0 384 512">
                                             <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
@@ -70,7 +71,7 @@
                                             Consiguelo en la <b style="font-size: 1.4rem;"> App Store</b></p>
                                     </div>
                                 </button>
-                                <button class="d-flex align-items-center btn bg-dark rounded-5">
+                                <button class="d-flex align-items-center btn bg-dark rounded-5 my-2 my-md-0" style="width: 13rem;">
                                     <i style="width: 2rem; "><svg style="fill:white" xmlns="http://www.w3.org/2000/svg"
                                             viewBox="0 0 512 512">
                                             <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
@@ -86,7 +87,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="w-50  z-index-1">
+                    <div class="w-50  z-index-1 d-none d-lg-block">
                         <div class="mx-auto">
                             <img class="mobile-hero" src="./img/mobile-hero.png">
 
@@ -94,7 +95,7 @@
                     </div>
 
                 </div>
-
+            </div>
             </div>
 
         </div>
@@ -122,14 +123,14 @@
                     <p>Con nuestra app de realidad aumentada, explora nuevos lugares a traves del mapa interactivo que te mostrará las zonas turisticas cerca de ti</p>
 
                 </div>
-                <img src="img/map.png" alt="" style="width:35rem;">
+                <img class="d-none d-md-block" src="img/map.png" alt="" style="width:35rem;">
 
         </section>
         
         <section class="contenedor conoce-lahistoria position-relative">
 
             <div class="contenedor-conoce-lahistoria">
-                <img src="img/Conoce-edited.png" alt="" class="imagen-la-historia">
+                <img src="img/Conoce-edited.png" alt="" class="d-none d-md-block imagen-la-historia">
                 <div class="contenido-textos">
                     <br><br><br><br><br><br><br><br><br><br><br><br>
                     <h2><span></span>Conoce la historia</h2>
@@ -141,7 +142,7 @@
         <section class="contenedor paseos-beneficios">
 
             <div class="contenedor-paseos-beneficios">
-                <img src="img/Beneficios-edited.png" alt="" class="imagen-beneficios">
+                <img class="d-none d-md-block" src="img/Beneficios-edited.png" alt="" class="imagen-beneficios">
                 <div class="contenido-textos">
                     <br><br><br><br><br><br><br><br><br><br><br><br>
                     <h2><span></span>Disfruta de tus paseos obteniendo beneficios</h2>
@@ -153,7 +154,7 @@
                 </div>
 
         </section>
-        <div class="container-form">
+        <div class="container-form d-flex flex-column flex-md-row justify-content-center">
             <div class="info-form">
                 <h2>Contáctanos</h2>
                 <p>¿Necesita hablar con nosotros? Rellena el formulario

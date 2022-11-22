@@ -152,8 +152,8 @@ main .paseos-beneficios{
     outline: 0px;
 }
 .container-form form textarea{
-    max-width: 530px;
-    min-width: 530px;
+    width: 100%;
+
     min-height: 140px;
     max-height: 150px;
 }
