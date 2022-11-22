@@ -103,14 +103,21 @@
     </header>
     <main>
         <section class="contenedor " >
-            <div  style="margin-top:5rem" class="d-flex flex-row justify-content-center justify-content-evenly " >
-                <img class="rounded-4" style="width:11rem" src="img/rail-1.png" alt="">
-                <img class="rounded-4" style="width:11rem" src="img/rail-2.png" alt="">
-                <img class="rounded-4" style="width:11rem" src="img/rail-3.png" alt="">
+            <div  style="margin-top:5rem" class="mx-auto d-flex flex-column flex-md-row justify-content-center justify-content-evenly align-items-center " >
+                <img class="py-4 py-md-0" style="width:11rem;border-radius: 25px;" src="img/rail-1.png" alt="">
+                <img class="py-4 py-md-0" style="width:11rem;border-radius: 25px;" src="img/rail-2.png" alt="">
+                <img class="py-4 py-md-0" style="width:11rem;border-radius: 25px;" src="img/rail-3.png" alt="">
 
             </div>
-            <div style="background-color:#9DC6EF; min-width: 5rem; margin-top: 6rem;" class="py-1  mx-auto w-50 "> </div>
-            <div id="Objetivo"> <p style="color:#2C87E3; font-size: 1.5rem;" class="text-center py-1 my-4 mx-auto w-50 fw-bolder">Nuestro objetivo, es darte a conocer una nueva forma de visitar lugares desconocidos o conocidos que te aguardan mediante un elegante sistema de realidad aumentada.</p></div>
+            <!-------- 50% ------------>
+
+            <div style="background-color:#9DC6EF; min-width: 5rem; margin-top: 6rem;" class="py-1  mx-auto w-50 d-none d-md-block"> </div>
+            <div id="Objetivo"> <p style="color:#2C87E3; font-size: 1.5rem;" class="text-center py-1 my-4 mx-auto fw-bolder w-50 d-none d-md-block">Nuestro objetivo, es darte a conocer una nueva forma de visitar lugares desconocidos o conocidos que te aguardan mediante un elegante sistema de realidad aumentada.</p></div>
+
+            <!---------- 75% ----------->
+            <div style="background-color:#9DC6EF; min-width: 5rem; margin-top: 6rem;" class="py-1  mx-auto w-75 d-md-none "> </div>
+            <div id="Objetivo"> <p style="color:#2C87E3; font-size: 1.5rem;" class="text-center py-1 my-4 mx-auto fw-bolder w-75 d-md-none ">Nuestro objetivo, es darte a conocer una nueva forma de visitar lugares desconocidos o conocidos que te aguardan mediante un elegante sistema de realidad aumentada.</p></div>
+
         </section>
 
         <section class="contenedor paseos-beneficios">
@@ -132,7 +139,7 @@
 
             <div class="contenedor-conoce-lahistoria">
                 <img src="img/Conoce-edited.png" alt="" class="d-none d-md-block imagen-la-historia">
-                <div class="contenido-textos">
+                <div class="contenido-textos mx-5">
                     <br><br><br><br><br><br><br><br><br><br><br><br>
                     <h2><span></span>Conoce la historia</h2>
                     <p>Puedes encontrar la historia de los lugares turisticos de tu interes a solo un click </p>
@@ -144,7 +151,7 @@
 
             <div class="contenedor-paseos-beneficios">
                 <img class="d-none d-md-block" src="img/Beneficios-edited.png" alt="" class="imagen-beneficios">
-                <div class="contenido-textos">
+                <div class="contenido-textos mx-5">
                     <br><br><br><br><br><br><br><br><br><br><br><br>
                     <h2><span></span>Disfruta de tus paseos obteniendo beneficios</h2>
                     <p>Obten la recompensa de tu aventura, tomando una foto.
@@ -155,6 +162,25 @@
                 </div>
 
         </section>
+        <section class="contenedor">
+            <div class="contenido-textos ">
+                <h2 class="text-center py-4"><span></span>Acerca de la App</h2>
+
+            </div>
+
+
+            <div class="d-flex flex-row flex-wrap justify-content-center">
+                <div class="px-4 py-4 py-md-0">
+                <iframe width="420" height="420" src="https://www.youtube.com/embed/i2dCinqOToI" title="ABOUT THE PRODUCT" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="contenido-textos" style="max-width: 400px;">
+                <p class="text-md-start text-center"><b style="font-size:3rem; color:#424242;">Gpath</b><br>En este video se explica como funciona la aplicación movil en el cual el usuario puede experimentar una gran experiencia</p>
+            </div>
+                
+            </div>
+
+        </section>
+        <section class="contenedor">
         <div class="container-form d-flex flex-column flex-md-row justify-content-center" id="Contactanos">
             <div class="info-form">
                 <h2>Contáctanos</h2>
@@ -172,6 +198,8 @@
             </form>
         </div>
         <br><br>
+    </section>
+        
     </main>
 
     <footer>
